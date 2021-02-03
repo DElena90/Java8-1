@@ -52,14 +52,16 @@ public class Radio {
     public void plusVolume() {
         if (currentVolume == maxVolume) {
             currentVolume = maxVolume;
-        } else
-        currentVolume = currentVolume + 1;
+        } else {
+            currentVolume = currentVolume + 1;
+        }
     }
 
     public void minusVolume() {
         if (currentVolume == minVolume) {
             currentVolume = minVolume;
-        } else
+        } else {
             currentVolume = currentVolume - 1;
+        }
     }
 }
